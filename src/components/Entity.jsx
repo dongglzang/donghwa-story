@@ -46,7 +46,7 @@ const Entity = ({ story, onClick }) => {
       <motion.div
         animate={walkPath.animate}
         transition={walkPath.transition}
-        style={{ width: '320px', pointerEvents: 'auto', cursor: 'pointer' }}
+        style={{ width: '360px', pointerEvents: 'auto', cursor: 'pointer' }}
         onClick={() => onClick(story)}
         whileHover={{ scale: 1.06 }}
         whileTap={{ scale: 0.95 }}
